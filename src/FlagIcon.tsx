@@ -269,7 +269,7 @@ export function FlagIcon({ code, style, size = 24, ...props }: FlagIconProps) {
       width={size}
       height={size}
       {...props}
-      src={`https://cdn.jsdelivr.net/gh/madebybowtie/FlagKit@2.2/Assets/SVG/${code}.svg`}
+      src={`./assets/${code}.svg`}
     />
   );
 }
