@@ -269,7 +269,7 @@ export function FlagIcon({ code, style, size = 24, ...props }: FlagIconProps) {
       width={size}
       height={size}
       {...props}
-      src={`./assets/${code}.svg`}
+      src={require(`../assets/${code}.svg`)}
     />
   );
 }
